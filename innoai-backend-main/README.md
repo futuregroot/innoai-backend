@@ -148,6 +148,58 @@ innoai-backend/
 ├── .env.dev
 └── .env.local
 
+innoai-backend/
+│
+├── app/
+│
+├── config/
+│   ├── __init__.py
+│   ├── base.py
+│   ├── dev.py
+│   ├── local.py
+│   └── prod.py
+│
+├── extensions/
+│   ├── __init__.py
+│   ├── auth.py
+│   ├── cache.py
+│   ├── chroma_db.py
+│   ├── cors.py
+│   ├── csrf.py
+│   ├── db.py
+│   └── limiter.py
+│
+├── routes/
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── ingestion.py
+│   │   └── tests.py
+│   ├── auth/
+│   │   └── __init__.py
+│   └── pages/
+│       ├── __init__.py
+│       └── core.py
+│
+├── services/
+│   ├── answer_gpt_service.py
+│   ├── answer_llama_service.py
+│   ├── split_gpt_service.py
+│   ├── split_llama_service.py
+│   └── ingestion_service.py
+│
+├── chroma_storage/
+│   └── vehicle_collection/
+│       └── 2afe62fc-154e-43f8-b717-511a21725fe0/
+│           ├── data_level0.bin
+│           ├── header.bin
+│           ├── length.bin
+│           └── link_lists.bin
+│
+├── .env
+├── .env.dev
+└── .env.local
+
+
 ## Explanation of `chroma_storage` Directory Structure
 
 ### `vehicle_collection/2afe62fc-154e-43f8-b717-511a21725fe0`
