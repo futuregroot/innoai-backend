@@ -32,3 +32,8 @@ nltk==3.7
 chromadb==0.5.0
 typer
 pymongo
+chromadb
+sentence-transformers
+PyMuPDF
+fitz
+torch
